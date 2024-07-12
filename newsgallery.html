@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GALLERY</title>
+    <title>NEWS GALLERY</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+        h1{
+            text-decoration: underline;
+        }
+        ul li{
+            margin-top:25px;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
         .gallery{
             display: grid;
             grid-template-columns: repeat(5,1fr);
             gap: 20px;
+        }
+        #nav{
+            height: 60px;
+            text-decoration: none;
+            background-color: aqua;
+            display: flex;
+            gap: 80px;
+            font-size: x-large;
         }
         .card{
             width: 360px;
@@ -36,9 +54,20 @@
     </style>
 </head>
 <body>
+    <div class="main">
+        <nav>
+            <ul id="nav" type="none">
+                <img src="https://t4.ftcdn.net/jpg/01/66/52/39/240_F_166523930_XzLaIVUlXha2AB6JgRShWp2je0FBLnJi.jpg" height="60px">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./newsgallery.html"> News Gallery</a></li>
+            </ul>
+        </nav>
     <div class="content">
         <h1 align="center">
-            LATEST NEWS
+            <br>
+             NEWS GALLERY
+             <br>
+             <br> 
         </h1>
     </div>
     <div class="gallery">
